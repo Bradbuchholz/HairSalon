@@ -28,7 +28,7 @@ _You've been referred by Pierre to his friend Claire who is the owner of a hair 
 }
 
 ```
-## Example of complete appsettings.json
+#### Example of complete appsettings.json
 ```
 {
   "ConnectionStrings": {
