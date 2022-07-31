@@ -5,3 +5,26 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using HairSalon.Models;
+
+namespace HairSalon
+{
+  public class Startup
+  {
+    public Startup(IWebHostEnvironment env)
+    {
+      var builder = new ConfigurationBuilder()
+          .SetBasePath(env.ContentRootPath)
+          .AddJsonFile("appsettings.json");
+      Configuration = builder.Build();
+    }
+
+    public IConfigurationRoot Configuration { get; set; }
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+      services.AddMvc();
+
+      services.AddEntityFrameworkMySql()
+        .AddDbContext<HairSalonContext>(options => options
+        .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+    }
