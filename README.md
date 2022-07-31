@@ -21,9 +21,25 @@ _Use Razor to display information on each page._
 ## Setup / Installation 
 
 1. Download and install **`dotnet 5.0`** on your computer. 
-2. Clone the GitHub [repository](https://github.com/Bradbuchholz/Vendor-order-tracker.git) onto your computer.
+2. Clone the GitHub [repository](https://github.com/Bradbuchholz/HairSalon.git) onto your computer.
 3. Navigate to the directory via teriminal and use the command **`code .`** to open the program in your code editor.
-4. Once the program is open in your code editor, run **`dotnet restore VendorAndOrderTracker.Test.csproj`** in your terminal to set up the project.
+4. Create an **`appsettings.json`** file in the **`HairSalon/HairSalon`** directory and add the following code, replacing anything in `square brackets` with the information it represents specific to the project database: 
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=3306;database=[DATABASE-NAME-HERE];uid=[USER-ID-HERE];pwd=[YOUR-PASSWORD-HERE];"
+  }
+}
+
+```
+## Example of complete appsettings.json
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=Myusername;pwd=MySuperStrongPassword;"
+  }
+}
+
 5. After the project is setup, navigate to the **`VendorAndOrderTracker`** folder in your terminal.
 6. Use the command **`dotnet run`** to start the web application.
 7. Once the application is running, open your web brower and navigate to **`http://localhost:5000`** and use the app to add vendors, and orders for those vendors. 
