@@ -40,9 +40,11 @@ _Use Razor to display information on each page._
   }
 }
 ```
-5. After the project is setup, navigate to the **`VendorAndOrderTracker`** folder in your terminal.
-6. Use the command **`dotnet run`** to start the web application.
-7. Once the application is running, open your web brower and navigate to **`http://localhost:5000`** and use the app to add vendors, and orders for those vendors. 
+5. Open MySql Workbench and login to your server. Click on the Administration tab in the Navigator on the left side of the screen. (this tab will likely be on the bottom of the window).
+6. n the management section of this administration tab click on the button called **`Data Import/Export`**. Once the data import window opens click on **`Import from Self-Contained file`**, navigate into the project folder and select **`Brad_Buchholz.sql`** using the file path next to the button.
+7. Next click on the ``*New`** button in the section marked `"Default Schema to be imported to"` directly underneath the import options section.
+8. Click on the `"Import Progress"` tab at the top of the data import window. At the bottom of this tab click the button that reads **`Start Import`**.
+9.  
 
 ## Known Bugs 
 * Application currently has bare bones UI, if I had more time it could use custom styling. 
