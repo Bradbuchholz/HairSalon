@@ -39,7 +39,7 @@ _Use Razor to display information on each page._
     "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=Myusername;pwd=MySuperStrongPassword;"
   }
 }
-
+```
 5. After the project is setup, navigate to the **`VendorAndOrderTracker`** folder in your terminal.
 6. Use the command **`dotnet run`** to start the web application.
 7. Once the application is running, open your web brower and navigate to **`http://localhost:5000`** and use the app to add vendors, and orders for those vendors. 
