@@ -11,7 +11,8 @@ _Use Razor to display information on each page._
 
 ## Technologies Used 
 * C#
-* DOTNET
+* dotnet
+* .Net 5.0
 * HTML
 * CSS
 * MYSQL
