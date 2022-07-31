@@ -1,8 +1,9 @@
-# Vendor and Order Tracker
+# Hair Salon
 _By Brad Buchholz_
 ## Description
 
-_Pierre was so pleased with your console app for his bakery that he wants to hire you for a new project. This time, he would like you to build him an MVC application to help him track the vendors that purchase baked goods from him and the orders belonging to those vendors._
+### _Eau Claire's Salon_
+_You've been referred by Pierre to his friend Claire who is the owner of a hair salon called Eau Claire's Salon. She has contracted you out to create an MVC web application to help her manage her employees (stylists) and their clients. Claire should be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist._
 
 _For example, Pierre might supply croissants to a vendor called "Suzie's Cafe" once a week. Pierre may want to create a new Vendor to represent the cafe and add new Orders to it to help keep track of his expanding business relationships._
 
@@ -13,6 +14,7 @@ _Use Razor to display information on each page._
 * DOTNET
 * HTML
 * CSS
+* MYSQL
 * Markdown   
 
 ## Setup / Installation 
