@@ -1,4 +1,4 @@
-@* @{
+@{
   Layout = "_Layout";
 }
 
@@ -21,4 +21,4 @@
 @foreach (Stylist stylist in Model)
 {
   <li><strong>@Html.ActionLink($"{stylist.Name}", "Details", new { id = stylist.StylistId })</strong></li>
-} *@
+}
