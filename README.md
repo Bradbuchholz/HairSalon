@@ -44,6 +44,6 @@ _You've been referred by Pierre to his friend Claire who is the owner of a hair 
 10. Use your terminal to navigate into the `HairSalon/HairSalon/` fold and use the command **`dotnet run`** to launch the program. The site should be available at the server address used in the `appsettings.json` folder.  
 
 ## Known Bugs 
-* Application currently has bare bones UI, if I had more time it could use custom styling. 
+* Currently getting a MySql client error. 
 ## License
 _Copyright (c) Brad Buchholz_
